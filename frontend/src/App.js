@@ -1,9 +1,10 @@
+import Admin from './adminpages/Admin';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h2>Hello from react</h2>
+      <Admin/>
     </div>
   );
 }
