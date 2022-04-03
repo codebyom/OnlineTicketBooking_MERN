@@ -29,20 +29,24 @@ const Sidebar = () => {
                     </li>
                     </Link>
                     
+                    <Link to='/ticketing' className='Link'>
                     <li className="sidebarListItem">
-                        <img src='/icon/ticket.png'/>
-                        Ticketing
+                        <img src='/icon/user.png'/>
+                        Ticketing 
                     </li>
+                    </Link>
                 </ul>
             </div>
 
             <div className="sidebarManu">
                 <h3 className="sidebarTitle">Action</h3>
                 <ul className="sidebarList">
+                <Link to='/routescreen' className='Link'>
                     <li className="sidebarListItem">
-                        <img src='/icon/route.png'/>
-                         Routes
+                        <img src='/icon/user.png'/>
+                        Route
                     </li>
+                    </Link>
                     <li className="sidebarListItem">
                         <img src='/icon/bus.png'/>
                         Manage Buses

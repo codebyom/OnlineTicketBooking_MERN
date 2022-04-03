@@ -5,18 +5,25 @@ import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 import AdminHome from '../adminScreeen/home/AdminHome'
 import Sidebar from '../adminComponets/sidebar/Sidebar'
 import UserList from '../adminScreeen/userlist/UserList'
+import Ticketing from '../adminScreeen/ticketing/Ticketing'
+import TicketViewPage from '../adminScreeen/ViewTicketDetail/TicketViewPage'
+import RouteScreen from '../adminScreeen/routes/RouteScreen'
 const Admin = () => {
   return (
     <>
       <Router>      
         <div>
-        <AdminHeader/>       
+        <AdminHeader/> 
+              
         <div className='container-div'>
         <Sidebar/> 
             <div className='others'>  
             <Routes>
             <Route path='/' element={<AdminHome/>}/>
             <Route path='/userlist' element={<UserList/>}/>
+            <Route path='/ticketing' element={<Ticketing/>}/>
+            <Route path='/ticketing/ticketdetail' element={<TicketViewPage/>}/>
+            <Route path='/routescreen' element={<RouteScreen/>}/>
         </Routes>
             </div>
         </div>
