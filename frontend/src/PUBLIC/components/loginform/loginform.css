@@ -1,0 +1,18 @@
+
+.login_image img{
+    height: 400px;
+    width: 500px;
+}
+.login_form_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: goldenrod;
+    color: white;
+    padding: 10px 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.login_form{
+    margin-top: 15px;
+}

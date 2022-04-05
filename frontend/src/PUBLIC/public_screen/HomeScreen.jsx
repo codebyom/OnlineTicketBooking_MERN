@@ -19,7 +19,7 @@ const HomeScreen = () => {
                       <span className="bold-span">Traffic!</span>{" "}
                     </h3>
                     <div className="btn">
-                      <Link to="/register">
+                      <Link to="/signup">
                         <button className="signup">SignUp➟</button>
                       </Link>
                       

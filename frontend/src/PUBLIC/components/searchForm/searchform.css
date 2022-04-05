@@ -1,10 +1,43 @@
 .main_div_form{
     margin-top: 80px;
     height: 400px;
-    width: 400px;
+    width: 350px;
     border-radius: 15px;
     background-color: white;
     box-shadow: 2px 9px 17px -4px rgba(0,0,0,0.75);
 -webkit-box-shadow: 2px 9px 17px -4px rgba(0,0,0,0.75);
 -moz-box-shadow: 2px 9px 17px -4px rgba(0,0,0,0.75);
 }
+.title_from{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   padding-top: 10px;
+}
+
+
+.datepicker{
+    width: 300px;
+    padding: 10px 10px;
+    margin-left: 10px;
+}
+.form-label{
+    margin-left: 10px;
+    font-size: 18px;
+}
+.form-text{
+   margin-left: 10px;
+   margin-bottom: 15px;
+}
+.text{
+    margin-left: 10px;
+    width: 300px;
+}
+.searchbtn{
+    margin-left: 10px;
+    width: 300px;
+}
+

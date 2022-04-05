@@ -10,3 +10,11 @@
 .navbar{
     background-color: transparent;
 }
+.link{
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+.title-link{
+    text-decoration: none;
+}

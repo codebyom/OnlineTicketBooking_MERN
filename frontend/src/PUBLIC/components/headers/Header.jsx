@@ -8,12 +8,13 @@ const Header = () => {
     <>
         <Navbar className='navbar' >
   <Container>
-    <Navbar.Brand href="#home"><h3 className='logotitle'>St<span className='logotitlespan'>ar</span>Bus</h3></Navbar.Brand>
+    <Navbar.Brand href="#home"><Link to='/' className='title-link'><h3 className='logotitle'>St<span className='logotitlespan'>ar</span>Bus</h3></Link></Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="ms-auto">
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#link">Login</Nav.Link>
+      <Nav.Link href="#link"><Link to='/' className='link'>Home</Link></Nav.Link>
+      
+        <Nav.Link href="#link"><Link to='/login' className='link'>Login</Link></Nav.Link>
       </Nav>
       <Form className="d-flex">
         <FormControl
