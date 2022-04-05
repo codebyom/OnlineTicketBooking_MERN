@@ -24,6 +24,21 @@ const addbtnHandle = ()=>{
       headerName: "Distance",
       width: 90,
     },
+    {
+      field: "action",
+      headerName: "Action",
+      width:200,
+      renderCell: (params)=>{
+        return(
+            <>
+            <Button variant="primary"><img src='/icon/view.png' className='btnicon'/></Button>,
+            <Button variant="secondary"><img src='/icon/edit.png' className='btnicon'/></Button>,
+            <Button variant="danger"><img src='/icon/delete.png' className='btnicon'/></Button>,
+            </>
+        )
+    }
+    },
+
   ];
 
   const rows = [

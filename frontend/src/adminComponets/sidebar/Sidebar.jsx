@@ -47,14 +47,18 @@ const Sidebar = () => {
                         Route
                     </li>
                     </Link>
+                    <Link to='/managebus' className='Link'>
                     <li className="sidebarListItem">
-                        <img src='/icon/bus.png'/>
-                        Manage Buses
+                        <img src='/icon/user.png'/>
+                        Bus
                     </li>
+                    </Link>
+                    <Link to='/busroutine' className='Link'>
                     <li className="sidebarListItem">
-                        <img src='/icon/bus-schedule.png'/>
-                        Bus schedule
+                        <img src='/icon/user.png'/>
+                        Bus Schedule
                     </li>
+                    </Link>
                 </ul>
             </div>
 

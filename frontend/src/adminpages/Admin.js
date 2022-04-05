@@ -8,10 +8,11 @@ import UserList from '../adminScreeen/userlist/UserList'
 import Ticketing from '../adminScreeen/ticketing/Ticketing'
 import TicketViewPage from '../adminScreeen/ViewTicketDetail/TicketViewPage'
 import RouteScreen from '../adminScreeen/routes/RouteScreen'
+import BusPage from '../adminScreeen/managebus/BusPage'
+import BusSchefule from '../adminScreeen/busschedule/BusSchefule'
 const Admin = () => {
   return (
     <>
-      <Router>      
         <div>
         <AdminHeader/> 
               
@@ -24,11 +25,12 @@ const Admin = () => {
             <Route path='/ticketing' element={<Ticketing/>}/>
             <Route path='/ticketing/ticketdetail' element={<TicketViewPage/>}/>
             <Route path='/routescreen' element={<RouteScreen/>}/>
+            <Route path='/managebus' element={<BusPage/>}/>
+            <Route path='/busroutine' element={<BusSchefule/>}/>
         </Routes>
             </div>
         </div>
           </div>      
-        </Router>
     </>
   )
 }

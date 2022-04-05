@@ -1,0 +1,12 @@
+.logotitle{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+.logotitlespan{
+    color: rgb(233, 105, 105);
+}
+.navbar{
+    background-color: transparent;
+}

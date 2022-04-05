@@ -1,0 +1,10 @@
+.main_div_form{
+    margin-top: 80px;
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 2px 9px 17px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 9px 17px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 9px 17px -4px rgba(0,0,0,0.75);
+}
