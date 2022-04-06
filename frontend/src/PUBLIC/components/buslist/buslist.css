@@ -1,0 +1,81 @@
+
+.main_div_bus_list{
+    margin-top: 20px;
+}
+.title_bar_search{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+#date_search{
+    margin-left: 10px;
+    padding: 13px 10px;
+    align-items: center;
+    width: 200px;
+    margin-top: 5px;   
+}
+#outlined-basic{
+    align-items: center;
+    width: 200px;
+}
+.search_btn{
+    margin-left: 10px;
+    align-items: center;
+}
+
+.search_dashbord{
+    margin-top: 15px;
+    width: 90%;
+    margin: auto;
+}
+.side_filter{
+    width: 100%;
+}
+.ul_item{
+    list-style: none;
+    font-size: 14px;
+
+}
+.filter_title{
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    color: black;
+    margin-left: 20px;
+}
+.main_search_table{
+    width: 100%;
+
+}
+.main_search_table{
+    margin-top: 10px;
+
+}
+.title_bar_table{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.busstatus_title{
+    font-size: 15px;
+}
+.status_span{
+    margin-left: 5px;
+    font-size: 15px;
+    color: green;
+}
+.dusdate_title{
+    font-size: 15px;
+}
+.busdate_title_span{
+    margin-left: 5px;
+    color: red;
+}
+.form_group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 import './admin.css'
 import AdminHeader from '../adminComponets/tobar/AdminHeader'
-import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
+import {Routes,Route} from 'react-router-dom'
 import AdminHome from '../adminScreeen/home/AdminHome'
 import Sidebar from '../adminComponets/sidebar/Sidebar'
 import UserList from '../adminScreeen/userlist/UserList'
